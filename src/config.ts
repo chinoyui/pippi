@@ -263,8 +263,8 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接，支持多级菜单
 		{
-			name: "Links",
-			url: "/links/",
+			name: "Links", // 这是导航栏链接名称
+			url: "/links/", // 这是导航栏链接 URL
 			icon: "material-symbols:link",
 			children: [
 				{
@@ -282,68 +282,52 @@ export const navBarConfig: NavBarConfig = {
 			],
 		},
 		{
-			name: "My",
-			url: "/content/",
-			icon: "material-symbols:person",
+			name: "My", // 导航栏链接名称
+			url: "/content/", // 导航栏链接 URL
+			icon: "material-symbols:person", // 导航栏链接图标，使用 Iconify 图标名称
 			children: [
 				{
-					name: "Anime",
-					url: "/anime/",
-					icon: "material-symbols:movie",
-				},
-				{
 					name: "Diary",
-					url: "/diary/",
+					url: "/diary/", //这是日记页面的链接
 					icon: "material-symbols:book",
 				},
 				{
 					name: "Gallery",
-					url: "/albums/",
+					url: "/albums/", //这是相册页面的链接
 					icon: "material-symbols:photo-library",
-				},
-				{
-					name: "Devices",
-					url: "devices/",
-					icon: "material-symbols:devices",
-					external: false,
 				},
 			],
 		},
 		{
-			name: "About",
-			url: "/content/",
+			name: "About", // 导航栏链接名称
+			url: "/content/", // 导航栏链接 URL
 			icon: "material-symbols:info",
 			children: [
 				{
-					name: "About",
-					url: "/about/",
-					icon: "material-symbols:person",
-				},
-				{
-					name: "Friends",
-					url: "/friends/",
+					name: "Friends", //这是友链页面的链接
+					url: "/friends/", //这是友链页面的链接
 					icon: "material-symbols:group",
 				},
 			],
 		},
 		{
-			name: "Others",
-			url: "#",
+			name: "Others", // 这是导航栏链接名称
+			url: "#", // 导航栏链接 URL，设置为 '#' 表示不跳转
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
 					name: "Projects",
-					url: "/projects/",
+					url: "/projects/", //这是项目页面的链接
 					icon: "material-symbols:work",
 				},
 				{
 					name: "Skills",
-					url: "/skills/",
+					url: "/skills/", //这是技能页面的链接
 					icon: "material-symbols:psychology",
 				},
 				{
 					name: "Timeline",
-					url: "/timeline/",
+					url: "/timeline/", //这是时间线页面的链接
 					icon: "material-symbols:timeline",
 				},
 			],
@@ -353,8 +337,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "まつざか ゆき",
-	bio: "世界は大きい、君は行かなければならない",
+	name: "皮皮姬official",
+	bio: "皮皮是真滴阔爱！", // 个人简介文本
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -368,17 +352,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://github.com/chinoyui",
 		},
 	],
 };
@@ -437,7 +411,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "ブログへようこそ！これはサンプルの告知です", // 公告内容
+	content: "没事干就不知道干嘛，有事扣我~", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -499,7 +473,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 		{
 			// 组件类型：分类组件
 			type: "categories",
-			// 组件位置："sticky" 表示粘性定位，可滚动
+			// 组件位置："sticky" 表示粘性定位，可滚
 			position: "sticky",
 			// CSS 类名
 			class: "onload-animation",
