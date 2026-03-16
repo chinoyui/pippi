@@ -348,7 +348,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/pippi.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "皮皮姬official",
 	bio: "皮皮是真滴阔爱！", // 个人简介文本
 	typewriter: {
