@@ -279,6 +279,18 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
+				{
+					name: "爱发电",
+					url: "https://afdian.com/a/pippi_official",
+					external: true,
+					icon: "fa7-solid:wallet",
+				},
+				{
+					name: "皮皮BOT",
+					url: "https://dgbot.pippi.top/",
+					external: true,
+					icon: "fa7-brands:qq",
+				},
 			],
 		},
 		{
@@ -344,6 +356,11 @@ export const profileConfig: ProfileConfig = {
 		speed: 80, // 打字速度（毫秒）
 	},
 	links: [
+		{
+			name: "我的QQ",
+			icon: "fa7-brands:qq",
+			url: "https://qm.qq.com/q/HMogo7lFqa",
+		},
 		{
 			name: "Bilibili",
 			icon: "fa7-brands:bilibili",
@@ -617,3 +634,4 @@ export const widgetConfigs = {
 } as const;
 
 // umamiConfig相关配置已移动至astro.config.mjs中,统计脚本请自行在Layout.astro文件的<head>中插入
+
