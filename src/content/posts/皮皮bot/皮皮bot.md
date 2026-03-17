@@ -35,11 +35,13 @@ draft: false
 如需代挂请点这里：[代挂地址](https://dgbot.pippi.top/)
 
 ## ✨ 皮皮的部分公用api
-| 功能名称 | 地址 |
+| 功能名称，点击折叠查看详情 | 地址 |
 |------|------|
-| meme | https://memef.pippi.top/ |
-| xwuid外置登录 | https://xwapi.pippi.top |
-| 皮皮日报 | https://pprb.pippi.top |
-| 皮皮运势 | https://pprb.pippi.top/jrys?qq=123 |
-| 还有些忘了有空再加 |
+| <details><summary><b>meme</b></summary><br>📝 py版meme表情api</details> | https://memef.pippi.top/ |
+| <details><summary><b>xwuid外置登录</b></summary><br>🔐 点击链接获取地址-填入到控制台登录域名-关闭强制使用自己域名-重启</details> | https://xwapi.pippi.top |
+| <details><summary><b>皮皮日报</b></summary><br>📰 日报成品api，/?name=小明可自定义名称</details> | https://pprb.pippi.top |
+| <details><summary><b>皮皮运势</b></summary><br>🔮 每日运势查询，参数: qq=QQ号</details> | https://pprb.pippi.top/jrys?qq=123 |
+| <details><summary><b>外置渲染</b></summary><br>🎨 万用网页渲染服务，【仅需传递HTML结构: 必须包含 .container】替换render-hd为高清接口</details> | https://xr.pippi.top/render |
+| <details><summary><b>绘图预设+预览</b></summary><br>📝 预设详情https://ht.pippi.top/pippi.json</details> | https://hthelp.pippi.top/ |
+| 还有些忘了有空再加 |  |
 
