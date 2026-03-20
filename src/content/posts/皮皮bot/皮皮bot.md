@@ -43,5 +43,6 @@ draft: false
 | <details><summary><b>皮皮运势</b></summary><br>🔮 每日运势查询，参数: qq=QQ号</details> | https://pprb.pippi.top/jrys?qq=123 |
 | <details><summary><b>外置渲染</b></summary><br>🎨 万用网页渲染服务，【仅需传递HTML结构: 必须包含 .container】替换render-hd为高清接口</details> | https://xr.pippi.top/render |
 | <details><summary><b>绘图预设+预览</b></summary><br>📝 预设详情https://ht.pippi.top/pippi.json</details> | https://hthelp.pippi.top/ |
+| <details><summary><b>萝莉图api</b></summary><br>📝图库内含随机图api </details> | https://image.pippi.top/ |
 | 还有些忘了有空再加 |  |
 
